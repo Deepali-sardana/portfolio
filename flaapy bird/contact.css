@@ -1,0 +1,123 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(
+"comp.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:85px;
+    background-color:  rgb(2, 2, 2);
+    margin-bottom: 68px;
+ }
+ nav ul{
+    justify-content: center;
+    display: flex;
+ }
+ nav ul li{
+    list-style: none;
+    margin: 0 23px;
+ }
+ nav ul li a{
+    color: white;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color: blueviolet;
+    font-size: 1rem;
+ }
+.text{
+    text-align: center;
+}
+.text h1{
+    font-size: 70px;
+    float: left;
+    margin-top: -19px;
+    margin-left: 26px;
+    color: white
+}
+ hr{
+    margin-top: 212px;
+    width: 92%;
+    height: 3px;
+    background-color: white;
+}
+.contact h1{
+    position: absolute;
+    top: 323px;
+    left: 486px;
+    font-size: 37px;
+    color: white;
+}
+.contact p{
+    margin-top: 110px;
+    text-align: center;
+    margin-left: 416px;
+    margin-right: 416px;
+    color: white;
+}
+.contact img{
+    width: 5%;
+    margin-left: 500px;
+    margin-top: -6px;
+}
+.image2{
+    width: 77%;
+    margin-left: 170px;
+    margin-top: -55px;
+}
+.image3{
+    width: 78%;
+    margin-left: 297px;
+    margin-top: -66px;
+}
+.contact hr{
+    color: rgb(255, 255, 255);
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-block-start: auto;
+    width: 78%;
+}
+.contact nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact nav ul{
+    justify-content: center;
+    display: flex;
+ }
+.contact nav ul li{
+    list-style: none;
+
+ }
+ .contact a{
+
+ }
+ .image2 a{
+
+ }
+ .image3 a{
+    
+ }
+ /*.container{
+ display: grid;
+ grid-template-columns:20% 20% 20%;
+ align-items: center;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+ }*/

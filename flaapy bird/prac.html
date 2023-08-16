@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #080808;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(88 84 88);
+    margin-bottom: 68px;
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+    font-size: 1rem;
+}
+h1{
+text-align: center;
+font-size: 62px;
+margin-bottom: 100px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin: 0 56px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 white;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 60%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.responsive{
+  transition: transform 0.5s;
+}
+.responsive:hover{
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px 0 rgba(253, 253, 253, 0.2);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+  <nav>
+    <div class="right">
+        <ul>
+            <li><a href="porfolio.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="achievement.html">Achievements</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </div>
+</nav>
+<h1>Achievements</h1>
+</body>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cert9284_page-0001.jpg">
+      <img src="cert9284_page-0001.jpg" alt="Cinque Terre" style="width:600; height: 400;">
+    </a>
+    <div class="desc"><b>Training Certificate</b></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Deepali _page-0001.jpg">
+      <img src="Deepali _page-0001.jpg" alt="" style="width:600; height: 400;">
+    </a>
+    <div class="desc"><b>GFG code-a-zone 3.0</b></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="GuviCertification1.png">
+      <img src="GuviCertification1.png" alt="" style="width:600; height: 400;">
+    </a>
+    <div class="desc"><b>Python course</b></div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+</body>
+</html>
+

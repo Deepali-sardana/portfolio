@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    display: none;
+    max-width: 100%;
+  }
+  
+  .card.active img {
+    display: block;
+  }
+  

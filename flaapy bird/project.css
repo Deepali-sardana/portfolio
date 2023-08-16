@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background-color: #050a28;
+    color: white;
+ }
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:85px;
+    background-color:  rgb(20 21 72);
+    margin-bottom: 191px;
+ }
+ nav ul{
+    justify-content: center;
+    display: flex;
+ }
+ nav ul li{
+    list-style: none;
+    margin: 0 23px;
+ }
+ nav ul li a{
+    color: white;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color: blueviolet;
+    font-size: 1rem;
+    
+ }
+ h1{
+    text-align: center;
+    margin-top: -161px;
+    font-size: 5rem;
+ }
+ .firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    align-items: center;
+ }
+ .firstsection div{
+    width: 50%;
+    font-size: 30px;
+    margin: -97px 0px;
+    text-align: center;
+
+}
+.rightsection img{
+    width: 69%;
+    margin-left: 128px;
+    margin-top: 154px
+ }
+ .rightsection p{
+    font-size: 14px;
+    margin-top: -67px;
+    margin-left: 251px;
+    margin-right: 29px;
+ }
+ .leftsection h1{
+   
+    font-size: 40px;
+    margin-top: 162px;
+    margin-right: 31px;
+    
+
+ }
+ .leftsection ul li a:hover{
+    color: blueviolet;
+    font-size: 2.5rem;
+ }
+ .leftsection p{
+    font-size: 20px;
+    margin-right: 0px;
+    margin-left: 99px;
+    margin-top: 31px;
+ }
+ .leftsection ul li{
+    list-style: none;
+ }
+ .leftsection ul li a{
+    text-decoration: none;
+    color: white;
+ }
+ .project2 img{
+    width: 19%;
+    margin-top: 220px;
+    margin-left: 64px;
+ }
+ .project2 h1{
+    font-size: 40px;
+    margin-left: 387px;
+    margin-top: -406px;
+ }
+ .project2 p{
+    margin-left: 34px;
+    margin-right: 981px;
+ }
+ .project2 p1{
+    font-size: 20px;
+    float: right;
+    margin-left: 609px;
+    margin-right: 103px;
+    margin-top: 39px;
+ }
+ .project2 ul li{
+    list-style: none;
+}
+.project2 ul li a{
+   text-decoration: none;
+   color: white;
+
+ }
+ .project2 ul li a:hover{
+    color: blueviolet;
+    font-size: 2.5rem;
+ }
+ footer{
+    height: 45px;
+    background-color:  rgb(20 21 72);
+    margin-top: 427px;
+    text-align: center;
+ }
+ footer a{
+    text-decoration: none;
+    color: aqua;
+ }
